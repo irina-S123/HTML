@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 1170px/2);
+    padding-right: calc(50% - 1170px/2);
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.navigation-link {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 197px;
+    gap: 128px;
+    flex-direction: column;
+}
+
+.Content_left {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.text {
+    display: flex;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.Content_buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+.push {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+}
+
+.push2 {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+}
+
+.logo {
+    padding-bottom: 99px;
+}
+
+.achievments {
+    display: grid;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 3 1fr;
+    gap: 30px;
+    
+}
+
+.achievments-item {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    border-radius: 10;
+    background: 4151035;
+    align-items: center;
+    flex-direction: column;
+}
+
+.achievments-item h2 {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    opacity: 0.7;
+}
+
+.achievments-item p {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    opacity: 0.7;
+}
+
+.achievments-item img {
+    width: 98px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.achievments-hero img {
+    width: 306px;
+    height: 322px;
+}
